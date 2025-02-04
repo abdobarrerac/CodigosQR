@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Excel files (since they might contain sensitive information)
+*.xls
+*.xlsx
+!example_template.xlsx
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# PyInstaller
+*.spec
